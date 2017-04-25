@@ -6,7 +6,7 @@ This is a rough version of a cheap flights finder which, given a starting date a
 
 (defined in the `Lib.hs` file under `possibleWeekends`)
 
-##Usage
+## Usage
 
 ATM the whole thing is very rough. The app uses Skyscanner API to get flight and cost information. In order to use, you must first obtain a Skyscanner API key. Replace:
 
