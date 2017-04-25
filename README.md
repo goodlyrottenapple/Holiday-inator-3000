@@ -10,13 +10,17 @@ This is a rough version of a cheap flights finder which, given a starting date a
 
 ATM the whole thing is very rough. The app uses Skyscanner API to get flight and cost information. In order to use, you must first obtain a Skyscanner API key. Replace:
 
-```apiKey :: Maybe ApiKey
-apiKey = Nothing```
+```haskell
+apiKey :: Maybe ApiKey
+apiKey = Nothing
+```
 
 with:
 
-```apiKey :: Maybe ApiKey
-apiKey = Just "<your-key-here>"```
+```haskell
+apiKey :: Maybe ApiKey
+apiKey = Just "<your-key-here>"
+```
 
 in the `Lib.hs` file.
 
